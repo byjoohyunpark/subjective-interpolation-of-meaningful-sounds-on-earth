@@ -1,0 +1,12 @@
+
+.page-wrapper {
+    margin : 0 2% 0 2%;
+    width : 96%;
+    height : 20%;
+    /* background-color : yellow; */
+}
+
+.page  {
+    text-align: center;
+    padding-top: 2%;
+}

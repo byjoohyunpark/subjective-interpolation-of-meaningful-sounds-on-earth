@@ -1,1 +1,1 @@
-# subjective-interpolation-of-meaningful-sounds-on-the-earth
+# subjective-list-of-meaningful-sounds-on-the-earth

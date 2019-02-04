@@ -27,3 +27,11 @@
 .index{
     color : gray;
 }
+
+.on{
+    color : #5200ff;
+}
+
+.off{
+    color : white;
+}

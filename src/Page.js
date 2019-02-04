@@ -13,10 +13,10 @@ export class Page extends Component {
 
   render() {
     const index = this.props.index;
-    const content = this.props.content;
+    // const content = this.props.content;
     const page = index != null ? (
       <div className="page">
-        <div>{content}</div> 
+        <div>{index}</div> 
         <audio src={sounds[index +'.wav']} controls></audio>
       </div>
     ) : (null)

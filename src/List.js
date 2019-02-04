@@ -3,19 +3,37 @@ import './List.css';
 
 export class List extends Component {
 
+    state = {
+        activeIndex: null
+    }
+
+    clickHandler(index) {
+        this.setState({ activeIndex: index });
+    }
+
+
     render() {
         const list = this.props.list;
         const showContent = this.props.showContent;
+
+        const Title = (props) => (
+            <div className={`${props.clicked ? 'on' : 'off'}`}
+                onClick={props.onClick}>
+                {props.content.content1}&emsp;✕&emsp;{props.content.content2}
+            </div>
+        );
+
         const content1 = list.map(
             content => {
-                while (content.id <= 20) {
+                while (content.id <= 18) {
+
                     if (content.id < 10) {
                         return (
                             <div className="content" key={content.id}>
                                 <form onClick={() => { showContent(content.id, content.content) }}>
-                                    <div>
-                                        {/* <span className="index">{content.id}. &nbsp;</span> */}
-                                        {content.content1}&emsp;✕&emsp;{content.content2}</div>
+                                    <Title clicked={content.id === this.state.activeIndex} onClick={() => this.clickHandler(content.id)} content={content} />
+                                    {/* <div> <span className="index">{content.id}. &nbsp;</span>
+                                        {content.content1}&emsp;✕&emsp;{content.content2}</div>   */}
                                 </form>
                             </div>
                         )
@@ -24,9 +42,7 @@ export class List extends Component {
                         return (
                             <div className="content" key={content.id}>
                                 <form onClick={() => { showContent(content.id, content.content) }}>
-                                    <div>
-                                        {/* <span className="index">{content.id}.</span>  */}
-                                        {content.content} </div>
+                                <Title clicked={content.id === this.state.activeIndex} onClick={() => this.clickHandler(content.id)} content={content} />
                                 </form>
                             </div>
                         )
@@ -34,9 +50,10 @@ export class List extends Component {
 
                 }
             })
+
         const content2 = list.map(
             content => {
-                while (content.id > 20 && content.id <= 40) {
+                while (content.id > 18 && content.id <= 36) {
                     return (
                         <div className="content" key={content.id}>
                             <form onClick={() => { showContent(content.id, content.content) }}>
@@ -64,33 +81,3 @@ export class List extends Component {
 
 export default List
 
-
-
-
-
-
-// export class List extends Component {
-
-//     render() {
-//         const list = this.props.list;
-//         const showContent = this.props.showContent;
-//         const content = list.map(
-//             content => {
-//                 return (
-//                     <div className="content" key={content.id}>
-//                         <form onClick={() => { showContent(content.id) }}>
-//                             <div>{content.id}. {content.content}</div>
-//                         </form>
-//                     </div>
-//                 )
-//             })
-
-
-//         return (
-//             <div className="list">
-//                 {content}
-//             </div>
-//         )
-
-//     }
-// }

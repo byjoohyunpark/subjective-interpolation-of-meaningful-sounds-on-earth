@@ -1,19 +1,18 @@
-
-h2{
-    text-align: center;   
-    padding-top: 0.8%; 
+h2 {
+    text-align: center;
+    padding-top: 0.8%;
     padding-bottom: 2%;
     font-weight: 300;
     font-size: 16px;
     letter-spacing: 0.1em;
-    color : white;
+    color: white;
 }
 
-.author{
-    font-size : 9px;
+.author {
+    font-size: 9px;
     font-weight: 200;
     letter-spacing: 0.1em;
     position: absolute;
-    bottom : 0.8%;
-    right : 1.6%;
+    bottom: 0.8%;
+    right: 1.6%;
 }

@@ -42,7 +42,7 @@ export class List extends Component {
                         return (
                             <div className="content" key={content.id}>
                                 <form onClick={() => { showContent(content.id, content.content) }}>
-                                <Title clicked={content.id === this.state.activeIndex} onClick={() => this.clickHandler(content.id)} content={content} />
+                                    <Title clicked={content.id === this.state.activeIndex} onClick={() => this.clickHandler(content.id)} content={content} />
                                 </form>
                             </div>
                         )

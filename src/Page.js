@@ -9,17 +9,42 @@ function importAll(r) {
 
 const sounds = importAll(require.context('./sound', false, /\.(wav)$/));
 
+
 export class Page extends Component {
 
   render() {
     const index = this.props.index;
-    // const content = this.props.content;
     const page = index != null ? (
       <div className="page">
-        <div>{index}</div> 
-        <audio src={sounds[index +'.wav']} controls></audio>
+
+        <div className="content-name">
+          <p>&nbsp;</p>
+          <p id="caption">A</p>
+          <p id="caption">B</p>
+        </div>
+
+        <div className="original">
+          <p>Original</p>
+          <audio src={sounds[index + '1.wav']} controls></audio><br />
+          <audio src={sounds[index + '2.wav']} controls></audio>
+        </div>
+
+        <div className="representation">
+          <p>Representation</p>
+          <audio src={sounds[index + '3.wav']} controls></audio><br />
+          <audio src={sounds[index + '4.wav']} controls></audio>
+        </div>
+
+        <div className="interpolation">
+          <p>interpolation</p>
+          <audio src={sounds[index + '5.wav']} controls></audio>
+        </div>
+
       </div>
-    ) : (null)
+    ) : (
+        <div className="intro">Click on list to view details of:<br /><br />
+          A&emsp;✕&emsp;B </div>
+        )
 
     return (
       <div className="page-wrapper">

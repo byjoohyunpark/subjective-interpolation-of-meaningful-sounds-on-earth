@@ -26,28 +26,15 @@ export class List extends Component {
         const content1 = list.map(
             content => {
                 while (content.id <= 18) {
-
-                    if (content.id < 10) {
-                        return (
-                            <div className="content" key={content.id}>
-                                <form onClick={() => { showContent(content.id, content.content) }}>
-                                    <Title clicked={content.id === this.state.activeIndex} onClick={() => this.clickHandler(content.id)} content={content} />
-                                    {/* <div> <span className="index">{content.id}. &nbsp;</span>
+                    return (
+                        <div className="content" key={content.id}>
+                            <form onClick={() => { showContent(content.id, content.content) }}>
+                                <Title clicked={content.id === this.state.activeIndex} onClick={() => this.clickHandler(content.id)} content={content} />
+                                {/* <div> <span className="index">{content.id}. &nbsp;</span>
                                         {content.content1}&emsp;✕&emsp;{content.content2}</div>   */}
-                                </form>
-                            </div>
-                        )
-                    }
-                    else {
-                        return (
-                            <div className="content" key={content.id}>
-                                <form onClick={() => { showContent(content.id, content.content) }}>
-                                    <Title clicked={content.id === this.state.activeIndex} onClick={() => this.clickHandler(content.id)} content={content} />
-                                </form>
-                            </div>
-                        )
-                    }
-
+                            </form>
+                        </div>
+                    )
                 }
             })
 
@@ -57,7 +44,7 @@ export class List extends Component {
                     return (
                         <div className="content" key={content.id}>
                             <form onClick={() => { showContent(content.id, content.content) }}>
-                                <div><span className="index">{content.id}.</span> {content.content}</div>
+                                <Title clicked={content.id === this.state.activeIndex} onClick={() => this.clickHandler(content.id)} content={content} />
                             </form>
                         </div>
                     )

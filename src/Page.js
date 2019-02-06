@@ -42,7 +42,7 @@ export class Page extends Component {
 
       </div>
     ) : (
-        <div className="intro">Click on list to view details of:<br /><br />
+        <div className="intro">Click on the list to view details of:<br /><br />
           A&emsp;✕&emsp;B </div>
         )
 

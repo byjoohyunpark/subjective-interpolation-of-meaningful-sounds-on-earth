@@ -43,7 +43,8 @@ export class Page extends Component {
       </div>
     ) : (
         <div className="intro">Click on the list to view details of:<br /><br />
-          A&emsp;✕&emsp;B </div>
+          A&emsp;✕&emsp;B <br /><br /> 
+          <i>Implemented with <a href="https://magenta.tensorflow.org/nsynth" target="_blank"  rel="noopener noreferrer">NSynth(Neural Audio Synthesis)</a></i></div>
       )
 
     return (

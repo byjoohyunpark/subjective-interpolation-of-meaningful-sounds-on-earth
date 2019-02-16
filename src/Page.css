@@ -56,3 +56,8 @@
 audio {
     padding: 8px;
 }
+
+a, a:link, a:visited, i {
+    color : gray;
+    text-decoration: none;
+}

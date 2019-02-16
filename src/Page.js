@@ -44,7 +44,7 @@ export class Page extends Component {
     ) : (
         <div className="intro">Click on the list to view details of:<br /><br />
           A&emsp;✕&emsp;B </div>
-        )
+      )
 
     return (
       <div className="page-wrapper">

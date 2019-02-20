@@ -6,7 +6,7 @@
     /* background-color : gray; */
     display: flex;
     justify-content: center;
-    line-height: 1.48em;
+    line-height: 1.7em;
     font-size: 18px;
 }
 
@@ -23,9 +23,6 @@
     margin: 0 16px 0 16px;
 }
 
-/* .index {
-    color: gray;
-} */
 
 .on {
     color: #5200ff;

@@ -36,13 +36,13 @@
     },
     {
         "id": 8,
-        "content1": "Film running out on 16mm projector",
-        "content2": "Dialing analog telephone"
+        "content1": "Light curve waves",
+        "content2": "Satellite beep"
     },
     {
         "id": 9,
-        "content1": "Shutter click of SLR camera",
-        "content2": "Music of the spheres"
+        "content1": "Wow! signal SETI 1977",
+        "content2": "Radio Waves within Earth's Atmosphere"
     },
     {
         "id": 10,
@@ -56,8 +56,8 @@
     },
     {
         "id": 12,
-        "content1": "Dolphin",
-        "content2": "Chimpanzee"
+        "content1": "Film running out on 16mm projector",
+        "content2": "Dialing analog telephone"
     },
     {
         "id": 13,
@@ -92,12 +92,12 @@
     {
         "id": 19,
         "content1": "Aurora",
-        "content2": "Guitar"
+        "content2": "Acoustic guitar"
     },
     {
         "id": 20,
-        "content1": "Wow! signal SETI 1977",
-        "content2": "Plasma waves"
+        "content1": "Space shuttle launch",
+        "content2": "Painting"
     },
     {
         "id": 21,
@@ -112,7 +112,7 @@
     {
         "id": 23,
         "content1": "Bird",
-        "content2": "Insects"
+        "content2": "Crickets"
     },
     {
         "id": 24,
@@ -121,33 +121,33 @@
     },
     {
         "id": 25,
-        "content1": "*",
-        "content2": "*"
+        "content1": "Dolphin",
+        "content2": "Chimpanzee"
     },
     {
         "id": 26,
-        "content1": "*",
-        "content2": "*"
+        "content1": "Shutter click of SLR camera",
+        "content2": "Music of the spheres"
     },
     {
         "id": 27,
-        "content1": "*",
-        "content2": "*"
+        "content1": "Library",
+        "content2": "Busy bar at night"
     },
     {
         "id": 28,
-        "content1": "*",
-        "content2": "*"
+        "content1": "Crowds in a concert",
+        "content2": "Pouring beer"
     },
     {
         "id": 29,
-        "content1": "*",
-        "content2": "*"
+        "content1": "Fireworks",
+        "content2": "Synthesizer"
     },
     {
         "id": 30,
-        "content1": "*",
-        "content2": "*"
+        "content1": "Grass bowing in the wind",
+        "content2": "Clock ticking"
     },
     {
         "id": 31,

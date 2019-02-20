@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/subjective-list-of-meaningful-sounds-on-the-earth/precache-manifest.65f2872a1d8d94b23f72c12e79991e21.js"
+  "/subjective-interpolation-of-meaningful-sounds-on-the-earth/precache-manifest.a40a9b441b9c4bfcd320d2b0038f7d17.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/subjective-list-of-meaningful-sounds-on-the-earth/index.html", {
+workbox.routing.registerNavigationRoute("/subjective-interpolation-of-meaningful-sounds-on-the-earth/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });

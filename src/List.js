@@ -24,7 +24,7 @@ export class List extends Component {
     );
 
     const content1 = list.map(content => {
-      while (content.id <= 18) {
+      while (content.id <= 15) {
         return (
           <div className="content" key={content.id}>
             <form
@@ -37,8 +37,6 @@ export class List extends Component {
                 onClick={() => this.clickHandler(content.id)}
                 content={content}
               />
-              {/* <div> <span className="index">{content.id}. &nbsp;</span>
-                                        {content.content1}&emsp;✕&emsp;{content.content2}</div>   */}
             </form>
           </div>
         );
@@ -46,7 +44,7 @@ export class List extends Component {
     });
 
     const content2 = list.map(content => {
-      while (content.id > 18 && content.id <= 36) {
+      while (content.id > 15 && content.id <= 30) {
         return (
           <div className="content" key={content.id}>
             <form

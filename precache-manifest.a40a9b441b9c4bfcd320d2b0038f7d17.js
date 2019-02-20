@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "5b7636acd97692c19efb",
-    "url": "/subjective-interpolation-of-meaningful-sounds-on-the-earth/static/css/main.3e08c211.chunk.css"
+    "revision": "8065f33509eb49da8ea5",
+    "url": "/subjective-interpolation-of-meaningful-sounds-on-the-earth/static/css/main.b71955e6.chunk.css"
   },
   {
-    "revision": "5b7636acd97692c19efb",
-    "url": "/subjective-interpolation-of-meaningful-sounds-on-the-earth/static/js/main.5b7636ac.chunk.js"
+    "revision": "8065f33509eb49da8ea5",
+    "url": "/subjective-interpolation-of-meaningful-sounds-on-the-earth/static/js/main.8065f335.chunk.js"
   },
   {
     "revision": "f03e8ae863144a61c620",
@@ -436,6 +436,46 @@ self.__precacheManifest = [
     "url": "/subjective-interpolation-of-meaningful-sounds-on-the-earth/static/media/285.e75ac6eb.wav"
   },
   {
+    "revision": "ecac2b4d0a1e2807af74c8a03979f374",
+    "url": "/subjective-interpolation-of-meaningful-sounds-on-the-earth/static/media/291.ecac2b4d.wav"
+  },
+  {
+    "revision": "df7e3aade29f794c4b6f7dba1ba5bb78",
+    "url": "/subjective-interpolation-of-meaningful-sounds-on-the-earth/static/media/292.df7e3aad.wav"
+  },
+  {
+    "revision": "41c15e3c4394a409efc5a669d3e03ac7",
+    "url": "/subjective-interpolation-of-meaningful-sounds-on-the-earth/static/media/293.41c15e3c.wav"
+  },
+  {
+    "revision": "61a3d58069a2cc0c14f6ab398957b149",
+    "url": "/subjective-interpolation-of-meaningful-sounds-on-the-earth/static/media/294.61a3d580.wav"
+  },
+  {
+    "revision": "d9d2dcd99b219a3676a74a1ea28512b8",
+    "url": "/subjective-interpolation-of-meaningful-sounds-on-the-earth/static/media/295.d9d2dcd9.wav"
+  },
+  {
+    "revision": "103dc3e0115255bba33a76af0f1fc853",
+    "url": "/subjective-interpolation-of-meaningful-sounds-on-the-earth/static/media/301.103dc3e0.wav"
+  },
+  {
+    "revision": "e108151fb0238ebe12c8d4179cb71d40",
+    "url": "/subjective-interpolation-of-meaningful-sounds-on-the-earth/static/media/302.e108151f.wav"
+  },
+  {
+    "revision": "f623d4695c45f540d692294f4653da47",
+    "url": "/subjective-interpolation-of-meaningful-sounds-on-the-earth/static/media/303.f623d469.wav"
+  },
+  {
+    "revision": "72d5e9be3d238be1c469a8dfcad64fc0",
+    "url": "/subjective-interpolation-of-meaningful-sounds-on-the-earth/static/media/304.72d5e9be.wav"
+  },
+  {
+    "revision": "2f7ef26b83e3c333afce25bce74cb2fb",
+    "url": "/subjective-interpolation-of-meaningful-sounds-on-the-earth/static/media/305.2f7ef26b.wav"
+  },
+  {
     "revision": "b2edb951c47b803459b72ab45f1a547c",
     "url": "/subjective-interpolation-of-meaningful-sounds-on-the-earth/static/media/31.b2edb951.wav"
   },
@@ -576,7 +616,7 @@ self.__precacheManifest = [
     "url": "/subjective-interpolation-of-meaningful-sounds-on-the-earth/static/media/95.68656d9a.wav"
   },
   {
-    "revision": "f30a029832cf4ef2dd0edd51237a6e3b",
+    "revision": "dfb692b3e573bc23e3d5b75c292f541c",
     "url": "/subjective-interpolation-of-meaningful-sounds-on-the-earth/index.html"
   }
 ];

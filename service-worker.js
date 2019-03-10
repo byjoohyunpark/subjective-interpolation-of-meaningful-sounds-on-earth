@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/subjective-interpolation-of-meaningful-sounds-on-the-earth/precache-manifest.da07a8e6a9c50544a03348e109f49a7c.js"
+  "/subjective-interpolation-of-meaningful-sounds-on-the-earth/precache-manifest.f94f63c329b22317045791596a2a1b16.js"
 );
 
 workbox.clientsClaim();

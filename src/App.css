@@ -8,11 +8,10 @@ h2 {
     color: white;
 }
 
+
 .author {
-    font-size: 9px;
+    font-size: 10px;
     font-weight: 200;
     letter-spacing: 0.1em;
-    position: absolute;
-    bottom: 0.8%;
-    right: 1.6%;
+    line-height: 24px;
 }

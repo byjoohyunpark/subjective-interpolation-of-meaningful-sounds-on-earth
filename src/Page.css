@@ -24,9 +24,7 @@
 }
 
 .content-name {
-    position: absolute;
-    left: 12%;
-    /* background-color : gray; */
+    padding-right: 24px;
 }
 
 #caption {
@@ -40,24 +38,24 @@
 
 .original {
     text-align: center;
-    width: 24%;
 }
 
 .representation {
     text-align: center;
-    width: 24%;
 }
 
 .interpolation {
     text-align: center;
-    width: 24%;
 }
 
 audio {
-    padding: 8px;
+    padding: 8px 16px;
 }
 
-a, a:link, a:visited, i {
-    color : gray;
+a,
+a:link,
+a:visited,
+i {
+    color: gray;
     text-decoration: none;
 }

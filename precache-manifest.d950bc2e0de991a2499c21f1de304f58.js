@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "7fe3b1d67b9a070f76ed",
-    "url": "/subjective-interpolation-of-meaningful-sounds-on-the-earth/static/css/main.8010790f.chunk.css"
+    "revision": "89784d4d7eadf5bf732e",
+    "url": "/subjective-interpolation-of-meaningful-sounds-on-the-earth/static/css/main.ed75b035.chunk.css"
   },
   {
-    "revision": "7fe3b1d67b9a070f76ed",
-    "url": "/subjective-interpolation-of-meaningful-sounds-on-the-earth/static/js/main.7fe3b1d6.chunk.js"
+    "revision": "89784d4d7eadf5bf732e",
+    "url": "/subjective-interpolation-of-meaningful-sounds-on-the-earth/static/js/main.89784d4d.chunk.js"
   },
   {
-    "revision": "f03e8ae863144a61c620",
-    "url": "/subjective-interpolation-of-meaningful-sounds-on-the-earth/static/js/1.f03e8ae8.chunk.js"
+    "revision": "b95f6fcd338a4870ef47",
+    "url": "/subjective-interpolation-of-meaningful-sounds-on-the-earth/static/js/1.b95f6fcd.chunk.js"
   },
   {
     "revision": "059dd1fe625194b9705c",
@@ -616,7 +616,7 @@ self.__precacheManifest = [
     "url": "/subjective-interpolation-of-meaningful-sounds-on-the-earth/static/media/95.68656d9a.wav"
   },
   {
-    "revision": "683e8d9ea37e17b3661b053a94bee5ca",
+    "revision": "56fef3cd13d3019c1647f88b3f0484f9",
     "url": "/subjective-interpolation-of-meaningful-sounds-on-the-earth/index.html"
   }
 ];

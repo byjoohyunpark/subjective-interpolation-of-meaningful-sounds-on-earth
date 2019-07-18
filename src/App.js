@@ -21,7 +21,7 @@ export class App extends Component {
   render() {
     return (
       <div>
-        <h2>Subjective Interpolation of Meaningful Sounds on the Earth <span className="author"><br/>by Joohyun Park</span></h2> 
+        <h2>Subjective Interpolation of Meaningful Sounds on Earth <span className="author"><br/>by Joohyun Park</span></h2> 
         <List list={this.state.list} showContent={this.showContent} />
         <Page index={this.state.index} />
       </div>
